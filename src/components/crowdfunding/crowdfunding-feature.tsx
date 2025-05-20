@@ -113,8 +113,11 @@ export default function CounterFeature() {
   ) : (
     <div className="max-w-4xl mx-auto">
       <div className="hero py-[64px]">
-        <div className="hero-content text-center">
+        <div className="hero-content text-center h-screen">
+          <h1 className='font-bold text-6xl text-center'>Crowdfunding</h1>
+          <h4 className='font-bold text-2xl text-gray-500 pb-10'>Back What Matters, Together.</h4>
           <WalletButton />
+          <h1 className='pt-10 font-bold'>Built on Trust. Backed by Solana.</h1>
         </div>
       </div>
     </div>
